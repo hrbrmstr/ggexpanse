@@ -1,18 +1,30 @@
 Package: ggexpanse
 Type: Package
-Title: ggexpanse title goes here otherwise CRAN checks fail
+Title: Theme Elements Based On 'The Expanse'
 Version: 0.1.0
 Date: 2019-08-19
-Authors@R: c( person("Bob", "Rudis", email = "bob@rud.is", role =
-        c("aut", "cre"), comment = c(ORCID = "0000-0001-5670-2640")) )
+Authors@R: c( 
+      person("Bob", "Rudis", email = "bob@rud.is", 
+             role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5670-2640")),
+      person("domain101", "", role = "ctb",
+             comment = "<https://www.reddit.com/r/TheExpanse/comments/ay322l/protomolecule_font/>")
+    )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: Plot aesthetic defaults and theme elements inspired by 'The Expanse'.
 URL: https://gitlab.com/hrbrmstr/ggexpanse
 BugReports: https://gitlab.com/hrbrmstr/ggexpanse/issues
 Encoding: UTF-8
-License: AGPL
-Suggests: covr, tinytest
-Depends: R (>= 3.2.0)
-Imports: httr, jsonlite
+License: MIT + file LICENSE
+Suggests:
+    tinytest, covr
+Depends:
+    R (>= 3.2.0),
+    ggplot2 (>= 2.2.1)
+Imports:
+    grDevices,
+    grid,
+    scales,
+    extrafont,
+    tools
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1

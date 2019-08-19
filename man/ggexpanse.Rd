@@ -4,9 +4,9 @@
 \name{ggexpanse}
 \alias{ggexpanse}
 \alias{ggexpanse-package}
-\title{...}
+\title{Theme Elements Based On 'The Expanse'}
 \description{
-A good description goes here otherwise CRAN checks fail.
+Plot aesthetic defaults and theme elements inspired by 'The Expanse'.
 }
 \seealso{
 Useful links:

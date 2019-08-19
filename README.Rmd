@@ -1,3 +1,4 @@
+---
 output: rmarkdown::github_document
 editor_options: 
   chunk_output_type: console
@@ -15,6 +16,8 @@ hrbrpkghelpr::yank_title_and_description()
 ```
 
 ## What's Inside The Tin
+
+A copy of the [Protomolecule Font](https://www.reddit.com/r/TheExpanse/comments/ay322l/protomolecule_font/).
 
 The following functions are implemented:
 
@@ -38,6 +41,35 @@ packageVersion("ggexpanse")
 
 ```
 
+```{r pal1}
+scales::show_col(as.character(expanse_cols))
+```
+
+```{r pal2}
+scales::show_col(expanse_palette)
+```
+
+```{r plotex, fig.width=8, fig.height=6}
+ggplot() +
+  geom_smooth(
+    data = mtcars, method = "lm", 
+    aes(wt, mpg), colour = "white", 
+    fill = "gray60", show.legend = FALSE
+  ) +
+  geom_point(
+    data = mtcars,
+    aes(wt, mpg, fill = factor(carb)), 
+    shape = 21, color = "gray60", size = 4
+  ) +
+  scale_colour_expanse() +
+  scale_fill_expanse() +
+  labs(
+    title = "Stars Are Better_Off Without Us",
+    subtitle = "Say what you_will about organized_crime, at least it’s organized."
+  ) +
+  theme_expanse(grid = "XY")
+```
+
 ## ggexpanse Metrics
 
 ```{r cloc, echo=FALSE}
@@ -46,5 +78,4 @@ cloc::cloc_pkg_md()
 
 ## Code of Conduct
 
-Please note that this project is released with a Contributor Code of Conduct. 
-By participating in this project you agree to abide by its terms.
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
