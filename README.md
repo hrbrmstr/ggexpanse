@@ -38,6 +38,8 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("ggexpanse", repos = "https://cinc.rud.is")
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/ggexpanse.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/ggexpanse")
@@ -45,6 +47,8 @@ remotes::install_git("https://git.sr.ht/~hrbrmstr/ggexpanse")
 remotes::install_gitlab("hrbrmstr/ggexpanse")
 # or
 remotes::install_bitbucket("hrbrmstr/ggexpanse")
+# or
+remotes::install_github("hrbrmstr/ggexpanse")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
