@@ -22,6 +22,9 @@ Plot aesthetic defaults and theme elements inspired by ‘The Expanse’.
 
 ## What’s Inside The Tin
 
+A copy of the [Protomolecule
+Font](https://www.reddit.com/r/TheExpanse/comments/ay322l/protomolecule_font/).
+
 The following functions are implemented:
 
   - `expanse_cols`: Colors from The Expanse (WIP)
@@ -94,10 +97,10 @@ ggplot() +
 
 ## ggexpanse Metrics
 
-| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
-| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |        6 | 0.86 | 198 | 0.88 |          28 | 0.61 |       72 | 0.69 |
-| Rmd  |        1 | 0.14 |  28 | 0.12 |          18 | 0.39 |       33 | 0.31 |
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines | (%) | \# Lines |  (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | --: | -------: | ---: |
+| R    |        6 | 0.86 | 199 | 0.88 |          28 | 0.6 |       72 | 0.68 |
+| Rmd  |        1 | 0.14 |  28 | 0.12 |          19 | 0.4 |       34 | 0.32 |
 
 ## Code of Conduct
 
