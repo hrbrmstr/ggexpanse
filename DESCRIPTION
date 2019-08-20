@@ -7,7 +7,10 @@ Authors@R: c(
       person("Bob", "Rudis", email = "bob@rud.is", 
              role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5670-2640")),
       person("domain101", "", role = "ctb",
-             comment = "<https://www.reddit.com/r/TheExpanse/comments/ay322l/protomolecule_font/>")
+             comment = "<https://www.reddit.com/r/TheExpanse/comments/ay322l/protomolecule_font/>"),
+      person(given = "Antoine", family = "Bichat",
+           role = "ctb", email = "a.bichat@yahoo.fr",
+           comment = c(ORCID = "0000-0001-6599-7081"))
     )
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Plot aesthetic defaults and theme elements inspired by 'The Expanse'.
