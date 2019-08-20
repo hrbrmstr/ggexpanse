@@ -5,7 +5,7 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 [![Signed
 by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keybase.io/hrbrmstr)
 ![Signed commit
-%](https://img.shields.io/badge/Signed_Commits-100%25-lightgrey.svg)
+%](https://img.shields.io/badge/Signed_Commits-77.8%25-lightgrey.svg)
 [![Linux build
 Status](https://travis-ci.org/hrbrmstr/ggexpanse.svg?branch=master)](https://travis-ci.org/hrbrmstr/ggexpanse)  
 ![Minimal R
@@ -31,6 +31,8 @@ The following functions are implemented:
   - `expanse_pal`: Color palette based on selected colors from
     expanse\_cols
   - `import_protomolecule`: Import Protomolecule font for use in charts
+  - `protomolecule`: Helper to get the right font name for varous
+    operating systems
   - `scale_colour_expanse`: Discrete color & fill scales based on “The
     Expanse” palette
   - `theme_expanse`: An “Expanse” theme for ggplot2
@@ -62,6 +64,8 @@ library(ggexpanse)
 # current version
 packageVersion("ggexpanse")
 ## [1] '0.1.0'
+
+extrafont::loadfonts(quiet=TRUE)
 ```
 
 ``` r
@@ -101,10 +105,10 @@ ggplot() +
 
 ## ggexpanse Metrics
 
-| Lang | \# Files |  (%) | LoC |  (%) | Blank lines | (%) | \# Lines |  (%) |
-| :--- | -------: | ---: | --: | ---: | ----------: | --: | -------: | ---: |
-| R    |        6 | 0.86 | 199 | 0.88 |          28 | 0.6 |       72 | 0.68 |
-| Rmd  |        1 | 0.14 |  28 | 0.12 |          19 | 0.4 |       34 | 0.32 |
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | --: |
+| R    |        7 | 0.88 | 220 | 0.88 |          43 | 0.68 |       80 | 0.7 |
+| Rmd  |        1 | 0.12 |  29 | 0.12 |          20 | 0.32 |       34 | 0.3 |
 
 ## Code of Conduct
 
