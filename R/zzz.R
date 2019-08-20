@@ -15,7 +15,7 @@
   if (!any(grepl("otomole", fnt$FamilyName))) {
     packageStartupMessage(
       "NOTE: The 'Protomolecule' font is required to use this theme.\n",
-      "      Please use hrbrthemes::import_protomolecule() to install it."
+      "      Please use ggexpanse::import_protomolecule() to install it."
     )
   } # nocov end
 
